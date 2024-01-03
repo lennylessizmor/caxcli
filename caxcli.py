@@ -33,13 +33,12 @@ import requests
 import pandas as pd
 import json
 import configparser
-from version import __version__
 
 ##
 ## Globals
 ##
 
-args = docopt(__doc__, version=__version__)
+args = docopt(__doc__, version='0.1.0')
 base_url = "https://cax.piccadilly.autonity.org/api"
 timeout_seconds = int(args['--timeout'])
 
