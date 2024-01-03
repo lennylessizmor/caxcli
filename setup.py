@@ -1,9 +1,8 @@
 from setuptools import setup
-from caxcli.version import __version__
 
 setup(
     name='caxcli',
-    version=__version__,
+    version='0.1.0',
     py_modules=['caxcli'],
     install_requires=[
         'docopt>=0.6.2',
