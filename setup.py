@@ -8,10 +8,7 @@ setup(
     install_requires=[
         'docopt>=0.6.2',
         'pandas',
-        'os',
-        'requests',
-        'json',
-        'configparser'
+        'requests'
     ],
     entry_points='''
         [console_scripts]
