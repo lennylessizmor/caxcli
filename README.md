@@ -50,3 +50,8 @@ api_key = <your api key>
 ```
 
 This file must be in the same directory where `caxcli` is invoked.
+
+---
+
+_WARNING: I did NOT create the CAX service and developed this tool only by consulting the [CAX docs](https://cax.piccadilly.autonity.org/docs/). Use at your own risk._
+
