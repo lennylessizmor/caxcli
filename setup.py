@@ -1,5 +1,5 @@
 from setuptools import setup
-from version import __version__
+from caxcli.version import __version__
 
 setup(
     name='caxcli',
